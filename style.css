@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+h1 {
+    color:  dodgerblue;
+    font-size: 60px;
+    
+}
+
+.frase {
+    padding-bottom: 20%;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    width: 65%;
+}
+
+.info {
+    width: flex;
+    padding-right: 3%;
+    font-size: 22px;
+}
+
+.login {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 20px;
+}
+
+.caixa-login {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 110%;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 4px, rgb(0 0 0 / 10%) 0px 8px 16px;
+    border-radius: 8px;
+}
+
+.inputs {
+    padding: 15px;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    width: 90%;
+    font-size: 17px;
+    color: black;
+}
+
+.botao-entrar {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+}
+
+.botao-criar {
+    width: 50%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: #32CD32;
+    color: white;
+    font-size: 17px;
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+}
+
+a {
+    font-size: 70%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 100%;
+    border: 1% solid lightgray;
+}
